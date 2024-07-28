@@ -1,0 +1,1 @@
+C:\Users\Surface\Desktop\Code\rust\generics_trait_life\target\debug\generics_trait_life.exe: C:\Users\Surface\Desktop\Code\rust\generics_trait_life\src\lib.rs C:\Users\Surface\Desktop\Code\rust\generics_trait_life\src\main.rs
