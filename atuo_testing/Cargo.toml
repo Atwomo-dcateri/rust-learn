@@ -12,4 +12,3 @@ edition = "2021"
 
 name = "atuo_testing"
 path = "src/main.rs"
-
