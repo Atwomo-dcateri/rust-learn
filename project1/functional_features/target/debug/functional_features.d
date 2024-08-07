@@ -1,0 +1,1 @@
+C:\Users\Surface\Desktop\Code\rust\functional_features\target\debug\functional_features.exe: C:\Users\Surface\Desktop\Code\rust\functional_features\src\lib.rs C:\Users\Surface\Desktop\Code\rust\functional_features\src\main.rs

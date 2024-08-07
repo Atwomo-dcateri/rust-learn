@@ -24,7 +24,7 @@ impl Config{
         if args.len() < 3{
 
             return Err("not enough arguments");
-        }
+        }, 
 
         let query = args[1].clone();
 
@@ -36,6 +36,33 @@ impl Config{
         
     }
 }
+
+impl Config{
+
+    pub fn new1(mut args: std::env::Args) -> Result<Confi, &'static> {
+        
+//标准文档提及有些trait默认实现迭代器，这里的trait是指的类型
+        args.next();
+        
+        let query = match args.next() {
+
+            Some(arg) => arg,
+            None => return Err("Dont`get a query string"),
+        };
+
+        let filename = match args.next {
+
+            Some(arg) => arg,
+            None => return Err("Don`t get a flie name"),
+        };
+
+        let case_sensitive = env::var("CASE_INSENSITIVE").is_err();
+        
+        Ok(Config{query, filename, case_insensitive})
+
+    }
+}
+
 
 pub fn run(config: Config) -> Result<(), Box< dyn Error>>{
 
@@ -69,10 +96,17 @@ pub fn search <'a>(query: &str, contents: &'a str) -> Vec<&'a str>{
     results
 }
 
+pub fn search(query: &str, contents: &'a str) -> Vec<&'a str>{
+
+    contents.lines()
+        .filter(|line| line.contains(query))
+        .collect()
+}
+
 pub fn search_case_insensitive<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
     
     let query = query.to_lowercase();
-    let mut results = Vec::new();
+    /*let mut results = Vec::new();
     
     for line in contents.lines(){
 
@@ -80,9 +114,11 @@ pub fn search_case_insensitive<'a>(query: &str, contents: &'a str) -> Vec<&'a st
 
             results.push(line);
         }
-    }
-
-    results
+    }*/
+//使用迭代适配器使代码简洁
+    contents.lines()
+        .filter(|line| line.contains(query))
+        .collect()
 }
 
 

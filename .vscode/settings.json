@@ -49,4 +49,8 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.semanticHighlighting.enabled": true
   },
+  "cSpell.enableFiletypes": [
+    "!rust"
+  ],
+  "cSpell.language": "en,en-GB",
 }
