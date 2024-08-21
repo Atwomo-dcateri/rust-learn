@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"cargo_crate":[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.80.1/core/fmt/trait.Debug.html\" title=\"trait core::fmt::Debug\">Debug</a> for <a class=\"enum\" href=\"cargo_crate/art/kinds/enum.SecondaryColor.html\" title=\"enum cargo_crate::art::kinds::SecondaryColor\">SecondaryColor</a>"]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
