@@ -15,3 +15,4 @@ license = "MIT"
 
 name = "cargo_crate1"
 path = "src/main.rs"
+

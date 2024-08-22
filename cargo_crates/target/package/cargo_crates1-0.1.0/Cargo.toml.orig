@@ -1,0 +1,17 @@
+[package]
+name = "cargo_crates1"
+version = "0.1.0"
+authors = ["NJ"]
+edition = "2021"
+description = "Publish the crate first"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#path = "src/art/mod.rs"
+
+[[bin]]
+
+name = "cargo_crate1"
+path = "src/main.rs"

@@ -1,0 +1,1 @@
+E:\project\rust\rust-learn\cargo_crates\target\package\cargo_crates1-0.1.0\target\debug\cargo_crate1.exe: E:\project\rust\rust-learn\cargo_crates\target\package\cargo_crates1-0.1.0\src\art\mod.rs E:\project\rust\rust-learn\cargo_crates\target\package\cargo_crates1-0.1.0\src\lib.rs E:\project\rust\rust-learn\cargo_crates\target\package\cargo_crates1-0.1.0\src\main.rs

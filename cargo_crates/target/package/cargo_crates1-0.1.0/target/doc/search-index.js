@@ -1,0 +1,6 @@
+var searchIndex = new Map(JSON.parse('[\
+["cargo_crate",{"t":"CHEECECPPPPGPPGPNNNNNNNNNNNNNNNH","n":["art","main","PrimaryColor","SecondaryColor","kinds","mix","utils","Blue","Green","Green","Orange","PrimaryColor","Purple","Red","SecondaryColor","Yellow","borrow","borrow","borrow_mut","borrow_mut","fmt","from","from","into","into","try_from","try_from","try_into","try_into","type_id","type_id","mix"],"q":[[0,"cargo_crate"],[2,"cargo_crate::art"],[7,"cargo_crate::art::kinds"],[31,"cargo_crate::art::utils"],[32,"core::fmt"],[33,"core::result"],[34,"core::any"]],"i":[0,0,0,0,0,0,0,9,9,4,4,0,4,9,0,9,9,4,9,4,4,9,4,9,4,9,4,9,4,9,4,0],"f":"`{{}b}``````````````{{{d{c}}}{{d{e}}}{}{}}0{{{d{fc}}}{{d{fe}}}{}{}}0{{{d{h}}{d{fj}}}l}{cc{}}0{ce{}{}}0{c{{n{e}}}{}{}}000{{{d{c}}}A`{}}0{{AbAb}h}","D":"A`","p":[[1,"unit"],[1,"reference"],[0,"mut"],[6,"SecondaryColor",7],[5,"Formatter",32],[8,"Result",32],[6,"Result",33],[5,"TypeId",34],[6,"PrimaryColor",7]],"r":[[2,7],[3,7],[5,31]],"b":[],"c":"OjAAAAAAAAA=","e":"OzAAAAEAABgABQAAAAAAAgAJAA0AAQAQAAUAGgAFAA=="}],\
+["cargo_crates",{"t":"H","n":["add_one"],"q":[[0,"cargo_crates"]],"i":[0],"f":"{bb}","D":"b","p":[[1,"i32"]],"r":[],"b":[],"c":"OjAAAAAAAAA=","e":"OjAAAAEAAAAAAAAAEAAAAAAA"}]\
+]'));
+if (typeof exports !== 'undefined') exports.searchIndex = searchIndex;
+else if (window.initSearch) window.initSearch(searchIndex);
