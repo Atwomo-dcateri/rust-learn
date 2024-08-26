@@ -10,5 +10,4 @@ edition = "2021"
 
 [[bin]]
 name = "io_code"
-
 path = "src/main.rs"

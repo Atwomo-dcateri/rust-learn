@@ -1,0 +1,15 @@
+[package]
+name = "smart_pointer"
+version = "0.1.0"
+author = "NJ"
+edition = "2021"
+license = "MIT"
+description = "the records of the smart pointer"
+
+[dependencies]
+
+
+[[bin]]
+
+name = "smart_pointer"
+path = 'src/main.rs'
