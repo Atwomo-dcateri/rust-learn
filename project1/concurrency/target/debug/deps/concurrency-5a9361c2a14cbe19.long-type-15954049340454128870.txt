@@ -1,0 +1,1 @@
+core::result::Result<std::sync::mutex::MutexGuard<'_, {integer}>, std::sync::poison::PoisonError<std::sync::mutex::MutexGuard<'_, {integer}>>>
