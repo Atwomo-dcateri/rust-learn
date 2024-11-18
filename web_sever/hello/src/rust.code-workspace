@@ -1,0 +1,53 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"rust-analyzer.semanticHighlighting.operator.enable": true,
+		"workbench.colorCustomizations": {
+			"[Default Dark+]": {
+				"editorInlayHint.foreground": "#868686f0",
+				"editorInlayHint.background": "#3d3d3d48",
+				"editorInlayHint.typeForeground": "#fdb6fdf0",
+				"editorInlayHint.parameterForeground": "#fdb6fdf0"
+			}
+		},
+		"editor.tokenColorCustomizations": {
+			"textMateRules": [
+				{
+					"scope": "support.type.property-name.table",
+					"settings": {
+						"foreground": "#4EC9B0"
+					}
+				},
+				{
+					"scope": "support.type.property-name.array",
+					"settings": {
+						"foreground": "#569CD6"
+					}
+				},
+				{
+					"scope": "constant.other.time",
+					"settings": {
+						"foreground": "#DCDCAA"
+					}
+				}
+			]
+		},
+		"editor.semanticTokenColorCustomizations": {
+			"rules": {
+				"*.mutable": {
+					"fontStyle": ""
+				}
+			}
+		},
+		"rust-analyzer.cargo.autoreload": true,
+		"rust-analyzer.procMacro.enable": true,
+		"markdown-preview-github-styles.colorTheme": "auto"
+	}
+}
